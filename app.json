@@ -1,7 +1,7 @@
 {
-    "name":"ANU",
+    "name":"LUCIFER",
     "description":"YOUR APP NAME",
-    "repository":"https://github.com/Anurag320/ANUTXT",
+    "repository":"https://github.com/Kratik00/LUCITXT",
     "buildpacks":[
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
