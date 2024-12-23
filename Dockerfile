@@ -7,6 +7,9 @@ RUN apt-get install -y ntp
 COPY . .
 RUN pip3 install -r requirements.txt
 RUN apt install ffmpeg
+sudo timedatectl set-ntp on
+sudo timedatectl set-timezone UTC
+
 
 CMD gunicorn app:app & python3 main.py
 RUN apt-get install -y ntp
